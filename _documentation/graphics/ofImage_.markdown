@@ -2403,8 +2403,7 @@ _inlined_description: _
 _description: _
 
 
-Set the pixels of the image from an ofPixels instance, for an ofFloatImage these need to be ofFloatPixels, for an ofImage these need to be unsigned chars. The w and h values are important so that the correct dimensions are set in the image. This assumes that you're setting the pixels from 0,0 or the upper left hand corner of the image.
-The bOrderIsRGB flag allows you pass in pixel data that is BGR by setting bOrderIsRGB=false.
+Set the pixels of the image from an ofPixels instance, for an ofFloatImage these need to be ofFloatPixels, for an ofImage these need to be unsigned chars. 
 
 
 
